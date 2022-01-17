@@ -1,0 +1,93 @@
+.game {
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  background-image: url(1.jpg);
+}
+
+#Stick {
+  width: 50px;
+  height: 50px;
+  background-image: url(stickman.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+
+  30% {
+    top: 130px;
+  }
+
+  50% {
+    top: 80px;
+  }
+
+  80% {
+    top: 130px;
+  }
+
+  100% {
+    top: 150px;
+  }
+}
+
+#iron {
+  width: 20px;
+  height: 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+
+  background-image: url(Untitled.png);
+  background-size: 20px 40px;
+
+  animation: block 1s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 580px;
+  }
+
+  100% {
+    left: -20px;
+  }
+}
+
+.copy_rights_footer{
+
+  bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  position:fixed;
+  text-align: center;
+  width: 100%;
+  background-color: #698ef5;
+  color:white;
+  text-shadow: 10px 10px 10px rgb(151,149,149);
+  }
+
+
+  #main 
+  {
+    font-family:'Alfa Slab One',Roboto;
+    color: #0730a3;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  body
+  {
+    background-color: #c5d4fc;
+  }
